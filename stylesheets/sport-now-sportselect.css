@@ -1,0 +1,105 @@
+/*sport-now-sportselect.css*/
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background: url('images/baseball.jpg') no-repeat center center fixed; 
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #FFF8DC;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#header-color {
+    background-color: #990000;
+    opacity: .9;
+    filter: alpha(opacity=90); /*for IE8 and earlier*/
+    color: #fff;
+}
+
+.sport-now-sidebar {
+    background-color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 1px 20px 1px ;
+    height: 100%;
+}
+
+.sport-now-main {
+    background-color: #FFF8DC;
+    opacity: 0.9;
+    height: 100%;
+}
+
+.sport-now-tab-bar {
+    background-color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 1px 20px 1px;
+    height: 100%;
+}
+
+.sport-now-sidebar img{
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    background-image: url('images/user.jpg');
+    
+}
+
+.sport-icon {
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.resize {
+  height: 50px;
+  width: 50px;
+}
+
+body {
+    
+    background-image: url("stylesheets/images/basketball-court.jpg");
+    
+}
+
+
+html,body { height:100%; }
+
+.container { height:100%;}
+
+.row {height:100%;}
+
+#test {
+    
+    height: 50%;
+    margin: 0
+    
+}

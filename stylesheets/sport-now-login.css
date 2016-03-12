@@ -7,7 +7,7 @@
   z-index: -1;
   
   display: block;
-  background: url(images/basketball.jpg) no-repeat center center fixed; 
+  background: url(images/basketball-court.jpg) no-repeat center center fixed; 
   width: 100%;
   height: 100%;
   -webkit-background-size: cover;
@@ -32,9 +32,19 @@
   margin-right: 20px;
 }
 
+#bg {
+    background: url(images/basketball-court.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #FFF8DC;
+}
+
 #header-color {
     background-color: #990000;
     opacity: .9;
+    filter: alpha(opacity=90); /*for IE8 and earlier*/
     color: #fff;
 }
 
@@ -43,7 +53,6 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-
     font: bold 14px sans-serif;
     text-align: center;
 }
@@ -58,8 +67,10 @@
 
 .form-log-in-with-email .form-white-background{
     width: 570px;
+    border-radius: 8px;
     box-sizing: border-box;
     opacity: .9;
+    filter: alpha(opacity=90); /*for IE8 and earlier*/
     background-color: #ffffff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     padding: 60px 80px;
@@ -163,9 +174,9 @@
 
 .form-sign-in-with-social .form-title{
     box-sizing: border-box;
-    color:  #fff;
+    color:  #4c565e;
     font-size: 24px;
-    padding: 15px 20px;
+    padding: 10px 8px 10px 8px;
     border-bottom: 2px solid #6caee0;
 }
 
@@ -209,6 +220,16 @@
     border-radius: 2px;
     margin: 8px auto;
     text-decoration: none;
+}
+
+.form-sign-in-with-social .form-white-background{
+    border-radius: 8px;
+    opacity: .9;
+    filter: alpha(opacity=90); /*for IE8 and earlier*/
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    padding: 24px 10px 20px 10px;
+    margin-bottom: 32px;
 }
 
 /*Scaling the form*/

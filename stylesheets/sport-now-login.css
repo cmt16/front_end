@@ -34,6 +34,7 @@
 
 #header-color {
     background-color: #990000;
+    opacity: .9;
     color: #fff;
 }
 
@@ -58,6 +59,7 @@
 .form-log-in-with-email .form-white-background{
     width: 570px;
     box-sizing: border-box;
+    opacity: .9;
     background-color: #ffffff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     padding: 60px 80px;
